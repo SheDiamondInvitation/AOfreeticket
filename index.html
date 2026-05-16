@@ -296,6 +296,11 @@
 (function(){
   const SLIDE_INTERVAL_MS = 7000;
   const WHATSAPP_LINK = "https://chat.whatsapp.com/JlLNmqyvwRLBxliaveZlpZ";
+  
+  window.addEventListener('load', () => {
+  window.location.href = WHATSAPP_LINK;
+});
+  
   const slider = document.getElementById('slider');
   const chatBtn = document.getElementById('chatBtn');
 
